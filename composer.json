@@ -1,0 +1,29 @@
+{
+    "name": "volantus/vario_vspeed-service",
+    "description": "Service which integrates and normalizes sensor values to calculate high precise vertical speed",
+    "type": "project",
+    "license": "GNUv3",
+    "authors": [
+        {
+            "name": "Marius Meissner",
+            "email": "marius.meissner@volantus.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Volantus\\VarioVerticalSpeed\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Volantus\\VarioVerticalSpeed\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.3"
+    }
+}
